@@ -110,12 +110,15 @@ body, html {
     .homepg { 
      text-align: center;
      display: block;
-     position: absolute;
-     margin-top: -140px; 
-     top: 45%;
+     position: absolute; 
+     top: 42%;
+     
      
     }
 
+    #name {
+        display: none;
+    }
     .section {
         font-size: 20px;
     }
@@ -125,9 +128,58 @@ body, html {
     
     }
 
+    .navbar-nav {
+        display: inline-flex;
+        padding-right: 25px;
+    }
+
+    .navbar-brand {
+        margin-top: 5px;
+    }
+
+
+
+
  /*   #owl  {
         margin-left: 26px;
         margin-right: 15px;
     }*/
      
 }
+
+@media only screen and (max-width: 415px) {
+ 
+    .homepg { 
+     text-align: center;
+     display: block;
+     position: absolute; 
+     top: 50%;
+         
+    }
+
+    .navbar-nav {
+        padding: 0px !important;
+        display: inline-flex;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+ 
+    .homepg { 
+     text-align: center;
+     display: block;
+     position: absolute; 
+     top: 50%;
+         
+    }
+
+    .navbar-nav {
+        padding: 0px !important;
+        display: inline-flex;
+    }
+
+    .nav-link {
+        padding: 10px 10px !important;
+    }
+}
+
