@@ -24,6 +24,35 @@ body, html {
     
 }
 
+.shp {
+    background-image: url(imgs/Masashi-Wakui-16.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    text-transform: uppercase;
+}
+
+
+.gallery {
+    background-image: url(imgs/1_QDad022eRI-NihSnm72G4Q.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    text-transform: uppercase;
+}
+
+.cnt {
+    background-image: url(imgs/research-on-the-road-in-2050-1000x667-e1505908400187.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    text-transform: uppercase;
+}
+
+
 .navbar-brand {
     padding: 0px 0px 0px 0px;
     margin-right: 2px;

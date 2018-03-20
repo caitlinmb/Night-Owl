@@ -16,19 +16,19 @@
                 <img src="icons/hieroglyphs_5-512.png" width="40" height="40" class="navbar-brand d-inline-block align-top" id="owl">
 <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-                <a class="nav-link" href="#" id="name">Night Owl</a>
+                <a class="nav-link" href="#home" id="name">Night Owl</a>
               </li>      
 </ul>
 <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                          <a class="nav-link " href="#">Shops</a>
+                          <a class="nav-link " href="#shops" onclick="return show_div('shops');">Shops</a>
                         </li>
 
                         <li class="nav-item">
-                          <a class="nav-link" href="#">Views</a>
+                          <a class="nav-link" href="#views">Views</a>
                         </li>
                         <li class="nav-item">
-                                <a class="nav-link" href="#">Contact Us</a>
+                                <a class="nav-link" href="#contact">Contact Us</a>
                               </li>
                         
                       </ul>
@@ -49,8 +49,35 @@
         </div>
     </div>  
 </div>
+<div id="shops" class="shp" style="display:none;">
+    <div class="over">
+      <div class>
+        <h1 class="logo">Shop at night</h1> <!--text-transform:caps-->
+        <div></div>
+  
+      </div>
+    </div>
+  </div> 
 
+<div id="views" class="gallery" style="display:none;">
+  <div class="over">
+    <div class>
+      <h1 class="logo">Views at night</h1> <!--text-transform:caps-->
+      <div></div>
 
+    </div>
+  </div>
+</div>  
+
+<div id="contact" class="cnt" style="display:none;">
+    <div class="over">
+      <div class>
+        <h1 class="logo">Contact us</h1> <!--text-transform:caps-->
+        <div></div>
+  
+      </div>
+    </div>
+  </div>  
 
 
 
@@ -63,6 +90,14 @@
 
 
     <!-- Optional JavaScript -->
+    <script>
+        //Functon to show divs from the nav menu
+        function show_div(toShow)
+        {
+            var show = document.getElementById(toShow);
+            show.style.display = "";
+        }
+    </script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
