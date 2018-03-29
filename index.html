@@ -25,15 +25,17 @@
                         </li>
 
                         <li class="nav-item">
-                          <a class="nav-link" href="#views">Views</a>
+                          <a class="nav-link" href="#views"  onclick="return show_div('views');">Views</a>
                         </li>
                         <li class="nav-item">
-                                <a class="nav-link" href="#contact">Contact Us</a>
+                                <a class="nav-link" href="#contact"  onclick="return show_div('contact');">Contact Us</a>
                               </li>
                         
                       </ul>
               </nav>
-        <div class="home">
+        <div class
+        
+        ="home">
                         <div class="over">
                                 <h1 class="logo">DISCOVER AT NIGHT</h1>
                         <div class="homepg" >
@@ -49,7 +51,7 @@
         </div>
     </div>  
 </div>
-<div id="shops" class="shp" style="display:none;">
+<div id="shops" class="shp" style="display: none;">
     <div class="over">
       <div class>
         <h1 class="logo">Shop at night</h1> <!--text-transform:caps-->
@@ -59,7 +61,7 @@
     </div>
   </div> 
 
-<div id="views" class="gallery" style="display:none;">
+<div id="views" class="gallery" style="display: none;">
   <div class="over">
     <div class>
       <h1 class="logo">Views at night</h1> <!--text-transform:caps-->
@@ -69,12 +71,30 @@
   </div>
 </div>  
 
-<div id="contact" class="cnt" style="display:none;">
+<div id="contact" class="cnt" style="display: none;">
     <div class="over">
       <div class>
         <h1 class="logo">Contact us</h1> <!--text-transform:caps-->
-        <div></div>
-  
+        <form>
+          <div class="container">
+              <p class="thnk">THANK YOU for visiting our website!</p>
+                <p class="thnk">Have any questions or comments? Write us a message and we will respond as soon as possible!</p>
+          <div class="form-group">      
+            <label for="exampleFormControlInput1" style="margin-top:10px;">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>    
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Message : </label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" style="margin-bottom: 15px;"></textarea>
+          </div>
+          <input class="btn hvr-bob" type="submit" value="Send">
+        </form>
+        </div>
+
+
+
+
+
       </div>
     </div>
   </div>  
@@ -98,6 +118,15 @@
             show.style.display = "";
         }
     </script>
+<script> /*
+  $(document).ready (function() {
+     $("#shops").click(function(){
+        $(".shp").toggle();
+      });
+  });
+*/
+</script>
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

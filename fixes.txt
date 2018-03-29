@@ -1,3 +1,6 @@
 Need to:
 
 -make responsive (nav)  
+
+onclick that it also removes #id home and/or is on-top isntead, below the nav
+--hide other elements previously clicked (contact, views, shops)
