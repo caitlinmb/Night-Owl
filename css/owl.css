@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Elianto';
-    src:  url('fonts/Elianto-Regular.otf');
+    src:  url('../fonts/Elianto-Regular.otf');
           
   }
 
@@ -41,7 +41,7 @@ body, html {
   
 
 .logo {
-    font-family: 'Elianto';
+    font-family: 'Elianto', sans-serif;
     color: white;
     text-align: center;
     padding-top: 30px;
@@ -69,7 +69,7 @@ body, html {
 
 
 .home {
-    background: url(imgs/japan-wallpaper-mobile-29755864.jpg);
+    background-image: url("../imgs/japan-wallpaper-mobile-29755864.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -78,7 +78,8 @@ body, html {
     z-index: 1;
     top: 60px;
     width: 100%;
-        
+    
+
 }
 
 
@@ -112,7 +113,7 @@ body, html {
 
 
 .shp {
-    background-image: url(imgs/Masashi-Wakui-16.jpg);
+    background-image: url("../imgs/Masashi-Wakui-16.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -126,7 +127,7 @@ body, html {
 
 
 .gallery {
-    background-image: url(imgs/tunnel-2588733_960_720.jpg);
+    background-image: url("../imgs/tunnel-2588733_960_720.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -139,7 +140,7 @@ body, html {
 }
 
 .cnt {
-    background-image: url(imgs/pexels-photo-3159381-1080x675.jpeg);
+    background-image: url("../imgs/pexels-photo-3159381-1080x675.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
